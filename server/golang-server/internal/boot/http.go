@@ -29,7 +29,7 @@ func HTTP() (err error) {
 		logger *zap.Logger
 	)
 
-	genaiClient, err := genai.NewClient(context.Background(), option.WithAPIKey("AIzaSyDeiavJ9uzcWolrvKZvXsdN7-JENKMOx1I"))
+	genaiClient, err := genai.NewClient(context.Background(), option.WithAPIKey("my bad awokowak:) next update i'll hide this"))
 	if err != nil {
 		return err
 	}
